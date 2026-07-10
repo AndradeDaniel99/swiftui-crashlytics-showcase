@@ -25,6 +25,16 @@ struct DiagnosticsView: View {
                 Section {
                     Button("Trigger test crash", systemImage: "bolt.trianglebadge.exclamationmark", action: viewModel.requestTestCrash)
                         .tint(.red)
+                        .confirmationDialog(
+                            "Trigger an intentional crash?",
+                            isPresented: $viewModel.isShowingCrashConfirmation,
+                            titleVisibility: .visible
+                        ) {
+                            Button("Crash now", role: .destructive, action: viewModel.triggerConfirmedTestCrash)
+                            Button("Cancel", role: .cancel) {}
+                        } message: {
+                            Text("The app will close immediately. Reopen it to send the crash report.")
+                        }
                 } header: {
                     Text("Test crash")
                 } footer: {
@@ -36,16 +46,6 @@ struct DiagnosticsView: View {
                 }
             }
             .navigationTitle("Diagnostics")
-            .confirmationDialog(
-                "Trigger an intentional crash?",
-                isPresented: $viewModel.isShowingCrashConfirmation,
-                titleVisibility: .visible
-            ) {
-                Button("Crash now", role: .destructive, action: viewModel.triggerConfirmedTestCrash)
-                Button("Cancel", role: .cancel) {}
-            } message: {
-                Text("The app will close immediately. Reopen it to send the crash report.")
-            }
         }
     }
 }
