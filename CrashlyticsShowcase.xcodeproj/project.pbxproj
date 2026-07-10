@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100000000000000000031 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A00100000000000000000041 /* FirebaseCore */; };
+		A00100000000000000000032 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A00100000000000000000042 /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7FA1327300182930000BE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001000000000000000000A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00100000000000000000050;
+			remoteInfo = CrashlyticsShowcase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7FA1303300182930000BE9B /* CrashlyticsShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FA1304300182930000BE9B /* CrashlyticsShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A00100000000000000000001 /* CrashlyticsShowcase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrashlyticsShowcase;
+			sourceTree = "<group>";
+		};
+		A00100000000000000000002 /* CrashlyticsShowcaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CrashlyticsShowcaseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00100000000000000000010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000031 /* FirebaseCore in Frameworks */,
+				A00100000000000000000032 /* FirebaseCrashlytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00100000000000000000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00100000000000000000020 = {
+			isa = PBXGroup;
+			children = (
+				A00100000000000000000001 /* CrashlyticsShowcase */,
+				A00100000000000000000002 /* CrashlyticsShowcaseTests */,
+				A00100000000000000000021 /* Frameworks */,
+				A7FA1303300182930000BE9B /* CrashlyticsShowcase.app */,
+				A7FA1304300182930000BE9B /* CrashlyticsShowcaseTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		A00100000000000000000021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00100000000000000000050 /* CrashlyticsShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00100000000000000000061 /* Build configuration list for PBXNativeTarget "CrashlyticsShowcase" */;
+			buildPhases = (
+				A00100000000000000000070 /* Sources */,
+				A00100000000000000000010 /* Frameworks */,
+				A00100000000000000000071 /* Resources */,
+				A00100000000000000000074 /* Upload Crashlytics dSYMs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A00100000000000000000001 /* CrashlyticsShowcase */,
+			);
+			name = CrashlyticsShowcase;
+			packageProductDependencies = (
+				A00100000000000000000041 /* FirebaseCore */,
+				A00100000000000000000042 /* FirebaseCrashlytics */,
+			);
+			productName = CrashlyticsShowcase;
+			productReference = A7FA1303300182930000BE9B /* CrashlyticsShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00100000000000000000051 /* CrashlyticsShowcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00100000000000000000062 /* Build configuration list for PBXNativeTarget "CrashlyticsShowcaseTests" */;
+			buildPhases = (
+				A00100000000000000000072 /* Sources */,
+				A00100000000000000000011 /* Frameworks */,
+				A00100000000000000000073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00100000000000000000090 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00100000000000000000002 /* CrashlyticsShowcaseTests */,
+			);
+			name = CrashlyticsShowcaseTests;
+			productName = CrashlyticsShowcaseTests;
+			productReference = A7FA1304300182930000BE9B /* CrashlyticsShowcaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001000000000000000000A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A00100000000000000000050 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					A00100000000000000000051 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A00100000000000000000050;
+					};
+				};
+			};
+			buildConfigurationList = A00100000000000000000060 /* Build configuration list for PBXProject "CrashlyticsShowcase" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00100000000000000000020;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A001000000000000000000B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00100000000000000000020;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00100000000000000000050 /* CrashlyticsShowcase */,
+				A00100000000000000000051 /* CrashlyticsShowcaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00100000000000000000071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00100000000000000000073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A00100000000000000000074 /* Upload Crashlytics dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Upload Crashlytics dSYMs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00100000000000000000070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00100000000000000000072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00100000000000000000090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00100000000000000000050 /* CrashlyticsShowcase */;
+			targetProxy = A7FA1327300182930000BE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A001000000000000000000C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A001000000000000000000C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A001000000000000000000D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CrashlyticsShowcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A001000000000000000000D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CrashlyticsShowcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A001000000000000000000E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CrashlyticsShowcaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsShowcase.app/CrashlyticsShowcase";
+			};
+			name = Debug;
+		};
+		A001000000000000000000E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CrashlyticsShowcaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsShowcase.app/CrashlyticsShowcase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00100000000000000000060 /* Build configuration list for PBXProject "CrashlyticsShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001000000000000000000C0 /* Debug */,
+				A001000000000000000000C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00100000000000000000061 /* Build configuration list for PBXNativeTarget "CrashlyticsShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001000000000000000000D0 /* Debug */,
+				A001000000000000000000D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00100000000000000000062 /* Build configuration list for PBXNativeTarget "CrashlyticsShowcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001000000000000000000E0 /* Debug */,
+				A001000000000000000000E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A001000000000000000000B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00100000000000000000041 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A001000000000000000000B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A00100000000000000000042 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A001000000000000000000B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A001000000000000000000A0 /* Project object */;
+}
