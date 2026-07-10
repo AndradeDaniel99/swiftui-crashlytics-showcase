@@ -25,6 +25,8 @@ struct DiagnosticsView: View {
                 Section {
                     Button("Trigger test crash", systemImage: "bolt.trianglebadge.exclamationmark", action: viewModel.requestTestCrash)
                         .tint(.red)
+                } header: {
+                    Text("Test crash")
                         .confirmationDialog(
                             "Trigger an intentional crash?",
                             isPresented: $viewModel.isShowingCrashConfirmation,
@@ -35,8 +37,6 @@ struct DiagnosticsView: View {
                         } message: {
                             Text("The app will close immediately. Reopen it to send the crash report.")
                         }
-                } header: {
-                    Text("Test crash")
                 } footer: {
                     Text("This action requires confirmation and is enabled only in Debug builds.")
                 }
