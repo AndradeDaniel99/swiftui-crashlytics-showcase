@@ -10,6 +10,11 @@ A compact SwiftUI observability app built with Firebase Crashlytics, dependency 
 
 This showcase is designed as a focused reference project: the UI stays simple, Firebase remains isolated from presentation code, and the app keeps running with a local console fallback when Firebase is not configured.
 
+
+<img width="250"  alt="Simulator Screen Recording - iPhone 17 Pro - 2026-07-10 at 17 17 54" src="https://github.com/user-attachments/assets/cbead8a3-66b4-4c8d-a912-2e209ff40f1b" />
+
+
+
 ---
 
 ## Table of Contents
